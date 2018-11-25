@@ -1,0 +1,5 @@
+"Benchmark","Mode","Threads","Samples","Score","Score Error (99,9%)","Unit"
+"counters.play.AtomicCount","thrpt",4,20,"2356,287683","28,873116","ops/s"
+"counters.play.SemaphoreCount","thrpt",4,20,"2354,970155","46,528393","ops/s"
+"counters.play.SynchCount","thrpt",4,20,"2354,192071","33,732393","ops/s"
+"counters.play.VolatileCount","thrpt",4,20,"2335,648383","45,113304","ops/s"
