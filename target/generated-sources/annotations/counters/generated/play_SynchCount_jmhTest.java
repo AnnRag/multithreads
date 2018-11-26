@@ -75,7 +75,7 @@ public final class play_SynchCount_jmhTest {
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_play0_G.SynchCount();
+                blackhole.consume(l_play0_G.SynchCount());
                 res.allOps++;
             }
 
@@ -85,7 +85,7 @@ public final class play_SynchCount_jmhTest {
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_play0_G.SynchCount();
+                    blackhole.consume(l_play0_G.SynchCount());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -118,7 +118,7 @@ public final class play_SynchCount_jmhTest {
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_play0_G.SynchCount();
+            blackhole.consume(l_play0_G.SynchCount());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -144,7 +144,7 @@ public final class play_SynchCount_jmhTest {
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_play0_G.SynchCount();
+                blackhole.consume(l_play0_G.SynchCount());
                 res.allOps++;
             }
 
@@ -154,7 +154,7 @@ public final class play_SynchCount_jmhTest {
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_play0_G.SynchCount();
+                    blackhole.consume(l_play0_G.SynchCount());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -187,7 +187,7 @@ public final class play_SynchCount_jmhTest {
         long realTime = 0;
         result.startTime = System.nanoTime();
         do {
-            l_play0_G.SynchCount();
+            blackhole.consume(l_play0_G.SynchCount());
             operations++;
         } while(!control.isDone);
         result.stopTime = System.nanoTime();
@@ -213,7 +213,7 @@ public final class play_SynchCount_jmhTest {
 
             control.announceWarmupReady();
             while (control.warmupShouldWait) {
-                l_play0_G.SynchCount();
+                blackhole.consume(l_play0_G.SynchCount());
                 res.allOps++;
             }
 
@@ -227,7 +227,7 @@ public final class play_SynchCount_jmhTest {
             control.announceWarmdownReady();
             try {
                 while (control.warmdownShouldWait) {
-                    l_play0_G.SynchCount();
+                    blackhole.consume(l_play0_G.SynchCount());
                     res.allOps++;
                 }
                 control.preTearDown();
@@ -267,7 +267,7 @@ public final class play_SynchCount_jmhTest {
             }
             for (int b = 0; b < batchSize; b++) {
                 if (control.volatileSpoiler) return;
-                l_play0_G.SynchCount();
+                blackhole.consume(l_play0_G.SynchCount());
             }
             if (sample) {
                 buffer.add((System.nanoTime() - time) / opsPerInv);
@@ -325,7 +325,7 @@ public final class play_SynchCount_jmhTest {
         result.startTime = System.nanoTime();
         for (int b = 0; b < batchSize; b++) {
             if (control.volatileSpoiler) return;
-            l_play0_G.SynchCount();
+            blackhole.consume(l_play0_G.SynchCount());
         }
         result.stopTime = System.nanoTime();
         result.realTime = realTime;

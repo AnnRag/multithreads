@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.Throughput)
 @State(Scope.Benchmark)
-@OutputTimeUnit(TimeUnit.SECONDS)
+@OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class play {
 
     @Benchmark
@@ -42,7 +42,7 @@ public class play {
     }
 
     public static void main(String[] args) throws RunnerException {
-        int numbers_thread = 8;
+        int numbers_thread = 16;
         Options opt = new OptionsBuilder().include(play.class.getSimpleName()).warmupIterations(10)
                 .measurementIterations(20)
                 .resultFormat(ResultFormatType.CSV)
@@ -51,3 +51,4 @@ public class play {
 
         new Runner(opt).run();
     }
+}

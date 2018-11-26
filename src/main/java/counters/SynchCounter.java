@@ -4,10 +4,10 @@ public class SynchCounter{
 
     private int count;
 
-    public int add(){
-        synchronized(this) {
-            count++;
-        }
+    public synchronized int add(){
+        //synchronized(this) {
+            //count++;
+        //}
         return count ++;
     }
 }

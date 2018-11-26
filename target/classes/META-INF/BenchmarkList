@@ -1,4 +1,4 @@
-JMH S 13 counters.play S 45 counters.generated.play_VolatileCount_jmhTest S 13 VolatileCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 7 SECONDS E E 
-JMH S 13 counters.play S 42 counters.generated.play_SynchCount_jmhTest S 10 SynchCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 7 SECONDS E E 
-JMH S 13 counters.play S 46 counters.generated.play_SemaphoreCount_jmhTest S 14 SemaphoreCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 7 SECONDS E E 
-JMH S 13 counters.play S 43 counters.generated.play_AtomicCount_jmhTest S 11 AtomicCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 7 SECONDS E E 
+JMH S 13 counters.play S 43 counters.generated.play_AtomicCount_jmhTest S 11 AtomicCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 13 counters.play S 45 counters.generated.play_VolatileCount_jmhTest S 13 VolatileCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 13 counters.play S 46 counters.generated.play_SemaphoreCount_jmhTest S 14 SemaphoreCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 
+JMH S 13 counters.play S 42 counters.generated.play_SynchCount_jmhTest S 10 SynchCount S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MICROSECONDS E E 

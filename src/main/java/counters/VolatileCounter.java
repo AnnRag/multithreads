@@ -6,8 +6,7 @@ public class VolatileCounter {
 
     public int incr(){
         synchronized(this) {
-            count++;
+            return count++;
         }
-        return count;
     }
 }

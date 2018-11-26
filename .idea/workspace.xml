@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ffe406-2224-4c64-a3bf-49c05b6026c3" name="Default Changelist" comment="" />
+    <list default="true" id="71ffe406-2224-4c64-a3bf-49c05b6026c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_1" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_16" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_2" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_32" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_32" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_4" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Benchmark_Results_8" beforeDir="false" afterPath="$PROJECT_DIR$/Benchmark_Results_8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counters/SynchCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counters/SynchCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/counters/play.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/counters/play.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +27,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="765">
               <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/counters/SynchCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/counters/play.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
+            <state relative-caret-position="294">
+              <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,8 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="153">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -60,10 +72,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/counters/AtomicCounter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
               <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#183#184#0" expanded="true" />
+                <element signature="e#229#230#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="204">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -87,6 +99,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -94,11 +109,11 @@
         <option value="$PROJECT_DIR$/src/main/java/counters/Counter.java" />
         <option value="$PROJECT_DIR$/src/main/java/counters/main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/counters/AtomicCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/counters/SynchCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/counters/AtomicCounter.java" />
         <option value="$PROJECT_DIR$/src/main/java/counters/play.java" />
+        <option value="$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java" />
       </list>
     </option>
   </component>
@@ -114,16 +129,16 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="853" />
+    <option name="x" value="852" />
     <option name="width" value="1890" />
-    <option name="height" value="1031" />
+    <option name="height" value="1032" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,12 +183,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543172562945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543258328119" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -224,27 +240,26 @@
       <option name="presentableId" value="Default" />
       <updated>1543005150237</updated>
       <workItem from="1543005153601" duration="726000" />
-      <workItem from="1543066750196" duration="39429000" />
+      <workItem from="1543066750196" duration="40028000" />
+      <workItem from="1543254156177" duration="3565000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40155000" />
+    <option name="totallyTimeSpent" value="44319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Web" weight="0.32955465" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23481782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2388664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
+      <window_info id="Web" order="7" weight="0.32955465" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29307282" />
@@ -253,10 +268,12 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3285968" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24939272" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,13 +293,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/atomic/AtomicLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -301,10 +311,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="765">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -314,35 +324,42 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/counters/AtomicCounter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/counters/VolatileCounter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/counters/play.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="48" column="30" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/counters/SynchCounter.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/counters/SemaphoreCounter.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/counters/play.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
