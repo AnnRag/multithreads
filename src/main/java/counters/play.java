@@ -18,31 +18,27 @@ import java.util.concurrent.TimeUnit;
 public class play {
 
     @Benchmark
-    public void SemaphoreCount() {
+    public int SemaphoreCount() {
         SemaphoreCounter semaphoreCounter = new SemaphoreCounter();
-        semaphoreCounter.plus();
-        sleep();
+        return semaphoreCounter.plus();
     }
 
     @Benchmark
-    public void SynchCount() {
+    public int SynchCount() {
         SynchCounter synchCounter = new SynchCounter();
-        synchCounter.add();
-        sleep();
+        return synchCounter.add();
     }
 
     @Benchmark
-    public void AtomicCount() {
+    public int AtomicCount() {
         AtomicCounter atomicCounter = new AtomicCounter();
-        atomicCounter.increment();
-        sleep();
+        return atomicCounter.increment();
     }
 
     @Benchmark
-    public void VolatileCount() {
+    public int VolatileCount() {
         VolatileCounter volatileCounter = new VolatileCounter();
-        volatileCounter.incr();
-        sleep();
+        return volatileCounter.incr();
     }
 
     public static void main(String[] args) throws RunnerException {
@@ -55,11 +51,3 @@ public class play {
 
         new Runner(opt).run();
     }
-
-    public void sleep() {
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException ignored){
-        }
-    }
-}
