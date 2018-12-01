@@ -1,6 +1,10 @@
 package counters;
+import org.openjdk.jmh.annotations.Scope;
+import org.openjdk.jmh.annotations.State;
+
 import java.util.concurrent.Semaphore;
 
+@State(Scope.Benchmark)
 public class SemaphoreCounter {
 
     Semaphore semaphore = new Semaphore(1);

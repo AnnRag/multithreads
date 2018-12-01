@@ -13,41 +13,40 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 @BenchmarkMode(Mode.Throughput)
-@State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 public class play {
 
     @Benchmark
-    public int SemaphoreCount() {
-        SemaphoreCounter semaphoreCounter = new SemaphoreCounter();
+    @Group("Semaphore")
+    public int SemaphoreCount(SemaphoreCounter semaphoreCounter) {
         return semaphoreCounter.plus();
     }
 
     @Benchmark
-    public int SynchCount() {
-        SynchCounter synchCounter = new SynchCounter();
-        return synchCounter.add();
+    @Group("Synchronized")
+    public int SynchCount(SynchCounter Synch) {
+        return Synch.add();
     }
 
     @Benchmark
-    public int AtomicCount() {
-        AtomicCounter atomicCounter = new AtomicCounter();
+    @Group("Atomic")
+    public int AtomicCount(AtomicCounter atomicCounter) {
         return atomicCounter.increment();
     }
 
     @Benchmark
-    public int VolatileCount() {
-        VolatileCounter volatileCounter = new VolatileCounter();
+    @Group("Volatile")
+    public int VolatileCount(VolatileCounter volatileCounter) {
         return volatileCounter.incr();
     }
 
     public static void main(String[] args) throws RunnerException {
-        int numbers_thread = 16;
+        int numbers_thread = 4;
         Options opt = new OptionsBuilder().include(play.class.getSimpleName()).warmupIterations(10)
                 .measurementIterations(20)
                 .resultFormat(ResultFormatType.CSV)
                 .result("Benchmark_Results_" + numbers_thread)
-                .threads(numbers_thread).forks(1).build();
+                .threadGroups(numbers_thread).forks(1).build();
 
         new Runner(opt).run();
     }
